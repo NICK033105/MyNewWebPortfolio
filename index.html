@@ -5,213 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Web Development Portfolio</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <nav class="navbar">
-        <h2 class="logo">My<span>Portfolio.</span></h2>
-
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#practice">Practice</a></li>
-            <li><a href="#labs">Partner Labs</a></li>
-            <li><a href="#assignments">Assignments</a></li>
-        </ul>
-    </nav>
+<header class="hero">
+    <h1>My Web Development Portfolio</h1>
+    <p>Welcome! Explore my web development projects and assignments.</p>
 </header>
 
-<!-- HERO -->
+<main class="container">
 
-<section class="hero" id="home">
-    <div class="hero-content">
-
-        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
-
-        <h1>
-            My Web Development<br>
-            <span>Portfolio</span>
-        </h1>
-
-        <p class="description">
-            Welcome to my web development portfolio!
-            This website showcases the projects, skills,
-            and knowledge I have developed throughout
-            my web development course.
-        </p>
-
-        <a href="#practice" class="main-button">
-            Explore My Work →
-        </a>
-
-    </div>
-</section>
-
-<!-- ABOUT -->
-
-<section class="about">
-
-    <h2>About My Portfolio</h2>
-
-    <p>
-        Throughout this course, I have completed practice
-        activities, collaborative partner labs, and individual
-        assignments. Each project represents my progress
-        in learning HTML, CSS, and web development.
-    </p>
-
-</section>
-
-<!-- PRACTICE ACTIVITIES -->
-
-<section class="projects" id="practice">
-
-    <div class="section-heading">
-        <p>MY COURSEWORK</p>
+    <section class="section">
         <h2>Practice Activities</h2>
-        <span>My three practice projects</span>
-    </div>
 
-    <div class="project-grid">
+        <div class="project-grid">
 
-        <div class="project-card">
-            <img src="practice1.png" alt="Practice Activity 1">
-
-            <div class="card-content">
+            <a class="project-card" href="./practice1/index.html">
+                <img src="./images/practice1.png" alt="Practice Activity 1">
                 <h3>Practice Activity 1</h3>
-                <p>My first web development practice activity.</p>
-                <a href="./practice1/index.html">View Project →</a>
-            </div>
-        </div>
+                <p>View Practice 1</p>
+            </a>
 
-        <div class="project-card">
-            <img src="practice2.png" alt="Practice Activity 2">
-
-            <div class="card-content">
+            <a class="project-card" href="./practice2/index.html">
+                <img src="./images/practice2.png" alt="Practice Activity 2">
                 <h3>Practice Activity 2</h3>
-                <p>My second web development practice activity.</p>
-                <a href="./practice2/index.html">View Project →</a>
-            </div>
-        </div>
+                <p>View Practice 2</p>
+            </a>
 
-        <div class="project-card">
-            <img src="practice3.png" alt="Practice Activity 3">
-
-            <div class="card-content">
+            <a class="project-card" href="./practice3/index.html">
+                <img src="./images/practice3.png" alt="Practice Activity 3">
                 <h3>Practice Activity 3</h3>
-                <p>My third web development practice activity.</p>
-                <a href="./practice3/index.html">View Project →</a>
-            </div>
+                <p>View Practice 3</p>
+            </a>
+
         </div>
+    </section>
 
-    </div>
-</section>
-
-<!-- PARTNER LABS -->
-
-<section class="projects alternate" id="labs">
-
-    <div class="section-heading">
-        <p>TEAMWORK</p>
+    <section class="section">
         <h2>Partner Labs</h2>
-        <span>Projects completed through collaboration</span>
-    </div>
 
-    <div class="project-grid">
+        <div class="project-grid">
 
-        <div class="project-card">
-            <img src="lab1.png" alt="Partner Lab 1">
-
-            <div class="card-content">
+            <a class="project-card" href="./lab1/index.html">
+                <img src="./images/lab1.png" alt="Partner Lab 1">
                 <h3>Partner Lab 1</h3>
-                <p>A collaborative web development project.</p>
-                <a href="./lab1/index.html">View Project →</a>
-            </div>
-        </div>
+                <p>View Lab 1</p>
+            </a>
 
-        <div class="project-card">
-            <img src="lab2.png" alt="Partner Lab 2">
-
-            <div class="card-content">
+            <a class="project-card" href="./lab2/index.html">
+                <img src="./images/lab2.png" alt="Partner Lab 2">
                 <h3>Partner Lab 2</h3>
-                <p>Another project completed with a partner.</p>
-                <a href="./lab2/index.html">View Project →</a>
-            </div>
+                <p>View Lab 2</p>
+            </a>
+
         </div>
+    </section>
 
-    </div>
-</section>
-
-<!-- INDIVIDUAL ASSIGNMENTS -->
-
-<section class="projects" id="assignments">
-
-    <div class="section-heading">
-        <p>INDIVIDUAL WORK</p>
+    <section class="section">
         <h2>Individual Assignments</h2>
-        <span>Four projects showcasing my individual skills</span>
-    </div>
 
-    <div class="project-grid">
+        <div class="project-grid">
 
-        <div class="project-card">
-            <img src="assignment1.png" alt="Assignment 1">
+            <a class="project-card" href="./assignment1/index.html">
+                <img src="./images/assignment1.png" alt="Assignment 1">
+                <h3>Assignment 1</h3>
+                <p>View Assignment 1</p>
+            </a>
 
-            <div class="card-content">
-                <h3>Individual Assignment 1</h3>
-                <p>An individual web development project.</p>
-                <a href="./assignment1/index.html">View Project →</a>
-            </div>
+            <a class="project-card" href="./assignment2/index.html">
+                <img src="./images/assignment2.png" alt="Assignment 2">
+                <h3>Assignment 2</h3>
+                <p>View Assignment 2</p>
+            </a>
+
+            <a class="project-card" href="./assignment3/index.html">
+                <img src="./images/assignment3.png" alt="Assignment 3">
+                <h3>Assignment 3</h3>
+                <p>View Assignment 3</p>
+            </a>
+
+            <a class="project-card" href="./assignment4/index.html">
+                <img src="./images/assignment4.png" alt="Assignment 4">
+                <h3>Assignment 4</h3>
+                <p>View Assignment 4</p>
+            </a>
+
         </div>
+    </section>
 
-        <div class="project-card">
-            <img src="assignment2.png" alt="Assignment 2">
-
-            <div class="card-content">
-                <h3>Individual Assignment 2</h3>
-                <p>An individual web development project.</p>
-                <a href="./assignment2/index.html">View Project →</a>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <img src="assignment3.png" alt="Assignment 3">
-
-            <div class="card-content">
-                <h3>Individual Assignment 3</h3>
-                <p>An individual web development project.</p>
-                <a href="./assignment3/index.html">View Project →</a>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <img src="assignment4.png" alt="Assignment 4">
-
-            <div class="card-content">
-                <h3>Individual Assignment 4</h3>
-                <p>An individual web development project.</p>
-                <a href="./assignment4/index.html">View Project →</a>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<!-- FOOTER -->
+</main>
 
 <footer>
-
-    <h2>My<span>Portfolio.</span></h2>
-
-    <p>Web Development Portfolio | 2026</p>
-
-    <p>Created by: Your Name</p>
-
-    <a href="#home">Back to Top ↑</a>
-
+    <p>Created by: Your Name | Web Development Portfolio</p>
 </footer>
 
 </body>
